@@ -28,3 +28,9 @@ use_git_config(user.name = "carmart4", user.email = "carmart4@alumni.uv.es")
 usethis::use_github()
 
 ```
+```{r}
+# This is a new line. 
+a <- 2
+a*2
+
+```
