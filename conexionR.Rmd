@@ -1,0 +1,30 @@
+---
+title: "Prueba Git"
+author: "Santi"
+date: "2025-01-30"
+output: html_document
+---
+
+```{r}
+install.packages("usethis")
+
+```
+
+```{r}
+library(usethis)
+
+```
+```{r}
+edit_git_config()
+
+```
+
+```{r}
+use_git_config(user.name = "carmart4", user.email = "carmart4@alumni.uv.es")
+
+```
+
+```{r}
+usethis::use_github()
+
+```
